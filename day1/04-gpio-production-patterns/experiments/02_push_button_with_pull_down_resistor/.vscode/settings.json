@@ -4,16 +4,16 @@
   "idf.openOcdConfigs": [
     "board/esp32-wrover-kit-3.3v.cfg"
   ],
-  "idf.port": "/dev/tty.usbserial-0001",
+  "idf.port": "/dev/tty.usbserial-1110",
   "idf.currentSetup": "/Users/rajathkumar/.espressif/v6.0.1/esp-idf",
   "idf.customExtraVars": {
-    "IDF_TARGET": "esp32s2"
+    "IDF_TARGET": "esp32"
   },
   "clangd.path": "/Users/rajathkumar/.espressif/tools/esp-clang/esp-20.1.1_20250829/esp-clang/bin/clangd",
   "clangd.arguments": [
     "--background-index",
     "--query-driver=**",
-    "--compile-commands-dir=/Users/rajathkumar/esp32-production-firmware-workshop/day1/04-gpio-production-patterns/experiments/02_push_button_with_pull_down_resistor/build"
+    "--compile-commands-dir=/Users/rajathkumar/b2-esp32-prod-firmware-workshop/day1/04-gpio-production-patterns/experiments/02_push_button_with_pull_down_resistor/build"
   ],
   "idf.flashType": "UART"
 }

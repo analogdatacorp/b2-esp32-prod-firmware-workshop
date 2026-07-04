@@ -28,6 +28,7 @@
 #include "esp_lcd_panel_vendor.h"
 
 #include "esp_lcd_panel_ssd1306.h"
+#include "soc/gpio_num.h"
 
 /* -------------------------------------------------------
  * Tag for log filtering
@@ -38,8 +39,8 @@ static const char *TAG = "oled_init";
  * I2C Configuration
  * ------------------------------------------------------- */
 #define I2C_MASTER_PORT        I2C_NUM_0
-#define I2C_MASTER_SDA_IO      GPIO_NUM_8
-#define I2C_MASTER_SCL_IO      GPIO_NUM_9
+#define I2C_MASTER_SDA_IO      GPIO_NUM_4
+#define I2C_MASTER_SCL_IO      GPIO_NUM_5
 #define I2C_MASTER_FREQ_HZ     400000
 
 /* -------------------------------------------------------
