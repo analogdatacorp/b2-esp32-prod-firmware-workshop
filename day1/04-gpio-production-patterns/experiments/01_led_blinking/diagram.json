@@ -6,21 +6,11 @@
     {
       "type": "board-esp32-s2-devkitm-1",
       "id": "esp",
-      "top": -4.31,
-      "left": 4.57,
-      "attrs": {
-        "builder": "esp-idf"
-      }
+      "top": -13.91,
+      "left": -14.63,
+      "attrs": { "builder": "esp-idf" }
     },
-    {
-      "type": "wokwi-led",
-      "id": "led1",
-      "top": -42,
-      "left": -140.2,
-      "attrs": {
-        "color": "red"
-      }
-    }
+    { "type": "wokwi-led", "id": "led1", "top": -42, "left": -140.2, "attrs": { "color": "red" } }
   ],
   "connections": [
     [ "esp:TX", "$serialMonitor:RX", "", [] ],

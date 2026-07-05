@@ -15,8 +15,8 @@ static const char *TAG = "i2c_scanner";
 // #define I2C_MASTER_SDA_IO    GPIO_NUM_21
 // #define I2C_MASTER_SCL_IO    GPIO_NUM_22
 
-#define I2C_MASTER_SDA_IO    GPIO_NUM_21
-#define I2C_MASTER_SCL_IO    GPIO_NUM_22
+#define I2C_MASTER_SDA_IO    GPIO_NUM_8
+#define I2C_MASTER_SCL_IO    GPIO_NUM_9
 
 
 #define I2C_TIMEOUT_MS       50
